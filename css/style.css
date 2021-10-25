@@ -5,9 +5,6 @@
     transition:0.1s;
 }
 
-.ms_uppercase{
-    text-transform: uppercase;
-}
 
 .btn a{
     color:white;
@@ -17,15 +14,21 @@
     border-radius: 5px;
 }
 
+
 .btn:hover{
     opacity: 0.6;
     transform: scale(1.1);
 }
 
+/* my classes   */
 .ms_light-gray{
     background-color:#3A546D ;
 }
 
+
+.ms_uppercase{
+    text-transform: uppercase;
+}
 
 
 .ms_bg-light-green{
@@ -84,7 +87,7 @@ p{
     text-align: left;
 }
 
-
+/* FORM ####  */
 
 .group 			  { 
     position:relative; 
@@ -127,7 +130,16 @@ p{
     text-transform: uppercase;
   }
 
+ 
+
   @media(min-width:992px){
     #schede{width: 80%;
     margin: auto;}
   }
+
+  /* FINE FORM  */
+.padding{
+    padding:0px;
+}
+
+ 
