@@ -2,10 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition:0.1s;
 }
 
 .ms_uppercase{
     text-transform: uppercase;
+}
+
+.btn a{
+    color:white;
+    text-decoration: none;
+    border:1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.ms_light-gray{
+    background-color:#3A546D ;
+}
+
+
+
+.ms_bg-light-green{
+    background-color:#1ABC9C ;
 }
 
 .white{
@@ -18,7 +42,6 @@
 }
 
 .star i{
-    color: white;
     font-size: 1.5rem;
     
 }
@@ -26,7 +49,7 @@
 .star .line::before{
     position:absolute; top:8px;right:35px;
     content:'';
-    width: 300%;
+    width: 210%;
     height: 3px;
     background-color: white;
     font-weight: bolder;
@@ -35,7 +58,76 @@
 .star .line::after{
     position:absolute; top:8px;left: 35px;
     content:'';
-    width: 300%;
+    width: 210%;
     height: 3px;
     background-color: white;
 }
+
+.star .line-black::before{
+    position:absolute; top:8px;right:35px;
+    content:'';
+    width: 210%;
+    height: 3px;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.star .line-black::after{
+    position:absolute; top:8px;left: 35px;
+    content:'';
+    width: 210%;
+    height: 3px;
+    background-color: black;
+}
+
+p{
+    text-align: left;
+}
+
+
+
+.group 			  { 
+    position:relative; 
+    margin-bottom:45px; 
+    width:70%;
+    margin: auto;
+  }
+  input 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width: 100%;
+    border:none;
+    border-bottom:1px solid lightgray;
+  }
+  input:focus 		{ outline:none; }
+
+  textarea 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width: 100%;
+    border:none;
+    border-bottom:1px solid lightgray;
+  }
+  textarea:focus 		{ outline:none; }
+  
+  ::-webkit-input-placeholder { /* Edge */
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  ::placeholder {
+    color: black;
+    text-transform: uppercase;
+  }
+
+  @media(min-width:992px){
+    #schede{width: 80%;
+    margin: auto;}
+  }
